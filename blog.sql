@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-07-18 21:47:03
+Date: 2017-07-24 00:35:50
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -93,8 +93,8 @@ INSERT INTO `category` VALUES ('1', '3', '前端开发', '0');
 INSERT INTO `category` VALUES ('2', '4', '后端开发', '0');
 INSERT INTO `category` VALUES ('1', '5', 'php', '4');
 INSERT INTO `category` VALUES ('2', '6', 'java', '4');
-INSERT INTO `category` VALUES ('1', '7', 'html', '3');
-INSERT INTO `category` VALUES ('2', '8', 'css', '3');
+INSERT INTO `category` VALUES ('2', '7', 'html', '3');
+INSERT INTO `category` VALUES ('1', '8', 'css', '3');
 INSERT INTO `category` VALUES ('3', '9', 'javascript', '3');
 INSERT INTO `category` VALUES ('4', '10', 'angular', '3');
 INSERT INTO `category` VALUES ('5', '11', 'vue', '3');
@@ -115,7 +115,7 @@ CREATE TABLE `login` (
 -- ----------------------------
 -- Records of login
 -- ----------------------------
-INSERT INTO `login` VALUES ('1', 'admin', '123456', '0.0.0.0', '1500381486');
+INSERT INTO `login` VALUES ('1', 'admin', '123456', '0.0.0.0', '1500776158');
 
 -- ----------------------------
 -- Table structure for `session`
@@ -131,4 +131,4 @@ CREATE TABLE `session` (
 -- ----------------------------
 -- Records of session
 -- ----------------------------
-INSERT INTO `session` VALUES ('oe30t5c02f5inaqvit1elntnr1', '1500384968', 0x68656C6C6F776562615F67677C733A343A226E726C67223B7569647C733A313A2231223B757365727C733A353A2261646D696E223B6C6F67696E69707C733A373A22302E302E302E30223B6C6F67696E74696D657C733A31303A2231353030323936313437223B);
+INSERT INTO `session` VALUES ('lkou55ormfse6uncpjink9clf2', '1500828865', '');
