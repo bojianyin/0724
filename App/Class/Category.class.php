@@ -33,5 +33,15 @@
 			}
 			return $ary;
 		}
+		
+		Static Public function getChildId($cate,$id=0){
+			$ary=array();
+			foreach($cate as $v){
+				if($v['pid']==$id){
+					$ary[]=$v['id'];
+				}
+			}
+			return $ary;
+		}
 	}
 ?>
